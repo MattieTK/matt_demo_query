@@ -1,0 +1,2 @@
+var template=function(t){"use strict";var e={example_state_property:25,text:"Hello, world!!"};return t.data={},t.draw=function(){new URLSearchParams(window.location.search).get("hideTitle")||((t=document.createElement("h1")).textContent="Hello, world!",document.body.appendChild(t));var t=document.createElement("p");t.textContent=e.text,document.body.appendChild(t)},t.state=e,t.update=function(){document.querySelector("p").textContent=e.text},t}({});
+//# sourceMappingURL=template.js.map
